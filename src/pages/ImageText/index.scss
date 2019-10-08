@@ -1,0 +1,38 @@
+#imageText{
+    h3{
+        text-align: center;
+    }
+    .image{
+        width: 300px;
+        height: 400px;
+        position: relative;
+        padding: 10px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        img{
+            width: 271px;
+            height: 380px;
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%)
+            
+        }
+    }
+    .story{
+        padding-top: 15px;
+        .story-content{
+            width: 50%;
+            margin: 0 auto;
+            p:first-child{
+                text-align: center;
+                font-weight: 600;
+            }
+            p:last-child{
+                text-indent: 2em;
+            }
+        }
+    }
+}

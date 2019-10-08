@@ -1,0 +1,11 @@
+#order .order-container {
+  margin: 0 auto;
+}
+
+#order .order-container .order-top {
+  display: flex;
+}
+
+#order .order-container .order-top .order-item-right {
+  flex: 1;
+}

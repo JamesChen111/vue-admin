@@ -1,0 +1,20 @@
+#video-audio{
+    .video{
+        display: flex;
+        video{
+            height: 200px;
+        }
+        .description{
+            padding-left: 10px;
+            font-size: 18px;
+        }
+    }
+    .audio{
+        audio{
+            height: 60px 
+        }
+        span{
+            padding-left: 10px;
+        }
+    }
+}
